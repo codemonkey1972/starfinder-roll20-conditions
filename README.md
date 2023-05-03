@@ -1,0 +1,1 @@
+# starfinder-roll20-conditions
