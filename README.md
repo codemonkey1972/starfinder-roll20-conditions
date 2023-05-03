@@ -3,6 +3,7 @@
 A Roll20 script for Starfinder (though it can work with any game having conditions with a little customization).
 
 =================================
+
 PREREQUISITES:
 
 This script uses a custom Token Marker set. You can create your own (https://wiki.roll20.net/Token_Markers#Creating_Token_Marker_Sets) or use the existing one. HOWEVER, the names of each token should correspond to the key for the condition it represents. 
@@ -15,6 +16,7 @@ If you wish to create other conditions, you will need to modify the
 
 
 =================================
+
 TODO LIST
 
 1. Clean up the code. This was just me playing around and needs a lot of streamlining.
@@ -26,6 +28,7 @@ TODO LIST
 7. Allow some tokens to increment or decrement based on initiative tracker turns?
 
 =================================
+
 USER GUIDE
 
 To list all token markers on the current Roll20 table, type this command from the command line or create a macro with it:
@@ -53,6 +56,7 @@ To remove all non-color markers from the currently selected token:
   !clearmarkers
 
 =================================
+
 CREDITS
 
 Script by Jeff Barnes based heavily on the Roll20 wiki entry: https://wiki.roll20.net/API:Token_Markers .
