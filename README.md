@@ -12,7 +12,7 @@ Thus, the token image named "asleep" (represented by a cloud of Zs) in the custo
 
     "asleep":"You are sleeping and helpless. While asleep, you take a –10 penalty to Perception checks to notice anything. If you succeed at a Perception check to notice something despite the penalty, you automatically awaken. You are also awoken if you are slapped or wounded. An ally can wake you as a standard action.",
 
-If you wish to create other conditions, you will need to modify the 
+If you wish to create other conditions, you will need to modify the conditions constant at the beginning of the script.
 
 
 =================================
