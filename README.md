@@ -1,6 +1,6 @@
 # starfinder-roll20-conditions
 
-A Roll20 script for Starfinder (though it can work with any game having conditions with a little customization).
+A Roll20 script for Starfinder (though it can work with any game having conditions with a little customization) to track conditions for characters represented by tokens.
 
 =================================
 
