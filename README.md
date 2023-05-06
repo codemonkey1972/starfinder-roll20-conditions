@@ -22,7 +22,6 @@ TODO LIST
 1. Clean up the code. This was just me playing around and needs a lot of streamlining.
 2. Remove the initial constant and replace it with a JSON file.
 3. Suppress the GM-only "All players" message when it's an unowned token getting the condition.
-4. Create easy to read public domain marker set to distribute with this.
 5. Add various affliction conditions, movement conditions (flight height, burrowing depth, etc.), player action conditions (get 'em, etc.).
 6. Automated test suite?
 7. Find an easy way to decrement or increment token numbers for the condition (PF2 potential upgrade?).
