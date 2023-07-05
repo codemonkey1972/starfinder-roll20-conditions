@@ -67,17 +67,6 @@ on("chat:message", msg => {
     if(userCommand === '!markernames') {
         let chatMessage = getChatMessageFromTokenMarkers(tokenMarkers);
         sendChat("Token Markers", chatMessage);
-    // doesn't seem to work; can't recall what this was for
-    } else if(userCommand === '!markerids') {
-        // const markerName = msg.content.split(" ")[1].toLowerCase();
-        // let results = [];
-        // _.each(tokenMarkers, marker => {
-        //     if(marker.name.toLowerCase() === markerName) results.push(marker);
-        // });
-        // log(results);
-        // let chatMessage = getChatMessageFromTokenMarkers(results);
-        // chatMessage = chatMessage || 'Unable to find any matching token markers'
-        // sendChat("Token Markers", chatMessage);
     // toggle a condition marker on or off for token
     } else if(userCommand === '!togglemarker') {
         if (!msg.selected && msg.selected[0]._type == "graphic") return;
